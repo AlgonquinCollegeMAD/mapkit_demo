@@ -252,7 +252,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MapKit_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = TE487R478V;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to provide a more personalized experience while you're using it.";
@@ -282,7 +282,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MapKit_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = TE487R478V;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to provide a more personalized experience while you're using it.";

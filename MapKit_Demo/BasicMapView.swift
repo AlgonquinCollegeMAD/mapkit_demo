@@ -2,6 +2,8 @@ import MapKit
 import SwiftUI
 
 struct BasicMapView: View {
+  @StateObject private var locationService = LocationService()
+
   @State private var region = MKCoordinateRegion(
     center: CLLocationCoordinate2D(latitude: 45.424721, longitude: -75.695000),
     span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
