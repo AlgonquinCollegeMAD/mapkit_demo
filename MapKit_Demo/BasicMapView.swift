@@ -18,8 +18,16 @@ struct BasicMapView: View {
   var body: some View {
     Map(initialPosition: .region(region)) {
       ForEach(locations) { location in
-              Marker(location.name, coordinate: location.coordinate)
-          }
+        Annotation(location.name, coordinate: location.coordinate) {
+          Text(location.name)
+            .font(.headline)
+            .padding()
+            .background(.blue)
+            .foregroundStyle(.white)
+            .clipShape(.capsule)
+        }
+        .annotationTitles(.hidden)
+      }
     }
   }
 }
